@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: foods
+  datasource:
+    url: jdbc:postgresql://localhost:5432/food_db
+    username: vladislavkim
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
